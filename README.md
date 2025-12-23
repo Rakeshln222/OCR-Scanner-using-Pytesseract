@@ -5,8 +5,6 @@
 The **OCR Scanner** is a Python-based application that extracts readable text from images using the **Tesseract OCR engine** via the **Pytesseract** library.  
 It supports preprocessing techniques using **OpenCV** to improve text recognition accuracy on various image types such as scanned documents, printed pages, and receipts.
 
----
-
 ## 🎯 Key Features
 - 🖼️ Image Preprocessing (grayscale, noise removal, thresholding, deskewing)
 - 🧩 OCR Text Extraction using Google’s Tesseract engine
@@ -14,8 +12,6 @@ It supports preprocessing techniques using **OpenCV** to improve text recognitio
 - 💬 Output export in `.txt` or `.docx` format
 - ⚙️ Configurable OCR parameters (OEM/PSM modes)
 - 🖥️ GUI support (Tkinter) and CLI mode for automation
-
----
 
 ## 🧰 Technologies Used
 | Component | Description |
@@ -25,7 +21,6 @@ It supports preprocessing techniques using **OpenCV** to improve text recognitio
 | **Libraries** | OpenCV, Pytesseract, Pillow, NumPy |
 | **GUI (Optional)** | Tkinter |
 
----
 
 ## 📦 Installation
 
@@ -56,8 +51,6 @@ pip install -r requirements.txt
   sudo apt install tesseract-ocr
   ```
 
----
-
 ## 🚀 Usage
 
 ### ▶️ Command-Line Mode
@@ -71,8 +64,6 @@ python main.py --image path/to/image.jpg --lang eng --deskew
 ```bash
 python gui_app.py
 ```
-
----
 
 ## 🔍 Workflow Overview
 
@@ -92,8 +83,6 @@ Postprocessing (Cleanup → Spellcheck)
 Output Text (.txt / .docx)
 ```
 
----
-
 ## 📊 Results & Performance
 
 | Test Case    | Input Type     | Accuracy (CER) | Notes                 |
@@ -103,8 +92,6 @@ Output Text (.txt / .docx)
 | Receipts     | Faded Print    | 85–90%         | Thresholding required |
 | Handwriting  | Notes          | <70%           | Limited by Tesseract  |
 
----
-
 ## 🌍 Applications
 
 * Document digitization & archival
@@ -112,15 +99,11 @@ Output Text (.txt / .docx)
 * Data entry automation
 * Accessibility for visually impaired users
 
----
-
 ## ⚠️ Limitations
 
 * Struggles with **handwritten or artistic fonts**
 * Sensitive to **blurred or skewed images**
 * No built-in table or layout recognition
-
----
 
 ## 🧩 Future Enhancements
 
@@ -129,14 +112,11 @@ Output Text (.txt / .docx)
 * Implement **PDF-to-searchable PDF** conversion
 * Advanced **layout detection and correction**
 
----
 
 ## 🏁 Conclusion
 
 This project demonstrates a modular and efficient OCR pipeline using Python, OpenCV, and Tesseract.
 By combining image preprocessing and accurate OCR extraction, the system provides a reliable tool for real-world document recognition.
-
----
 
 ## 📚 References
 
@@ -144,8 +124,6 @@ By combining image preprocessing and accurate OCR extraction, the system provide
 * [Pytesseract PyPI](https://pypi.org/project/pytesseract/)
 * [OpenCV Documentation](https://docs.opencv.org/)
 * [EasyOCR GitHub](https://github.com/JaidedAI/EasyOCR)
-
----
 
 ### 👨‍💻 Author
 
@@ -169,4 +147,5 @@ GUI:  python gui.py
 ## Notes
 - Use 300 DPI for scanned docs
 - Try --psm and --oem configs for different layouts
+
 
