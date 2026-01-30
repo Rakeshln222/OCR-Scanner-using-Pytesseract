@@ -92,7 +92,7 @@ Output Text (.txt / .docx)
 | Receipts     | Faded Print    | 85–90%         | Thresholding required |
 | Handwriting  | Notes          | <70%           | Limited by Tesseract  |
 
-## 🌍 Applications
+'''🌍 Applications
 
 * Document digitization & archival
 * Invoice / receipt scanning
@@ -110,7 +110,7 @@ Output Text (.txt / .docx)
 * Integrate **EasyOCR** or **PaddleOCR** for handwriting support
 * Add **Flask API** for cloud-based OCR service
 * Implement **PDF-to-searchable PDF** conversion
-* Advanced **layout detection and correction**
+* Advanced **layout detection and correction'''
 
 
 ## 🏁 Conclusion
@@ -147,5 +147,6 @@ GUI:  python gui.py
 ## Notes
 - Use 300 DPI for scanned docs
 - Try --psm and --oem configs for different layouts
+
 
 
